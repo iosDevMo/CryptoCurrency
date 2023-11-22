@@ -15,6 +15,7 @@
 		CD4375442B0E2A9F00B2F069 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4375432B0E2A9F00B2F069 /* TopMoversItemView.swift */; };
 		CD4375462B0E34CC00B2F069 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4375452B0E34CC00B2F069 /* AllCoinsView.swift */; };
 		CD4375482B0E34E800B2F069 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4375472B0E34E800B2F069 /* CoinRowView.swift */; };
+		CD43754A2B0E4D9100B2F069 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4375492B0E4D9100B2F069 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CD4375432B0E2A9F00B2F069 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 		CD4375452B0E34CC00B2F069 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
 		CD4375472B0E34E800B2F069 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		CD4375492B0E4D9100B2F069 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		CD4375402B0E041A00B2F069 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CD4375492B0E4D9100B2F069 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			files = (
 				CD4375482B0E34E800B2F069 /* CoinRowView.swift in Sources */,
 				CD43752E2B0DFF7A00B2F069 /* HomeView.swift in Sources */,
+				CD43754A2B0E4D9100B2F069 /* HomeViewModel.swift in Sources */,
 				CD4375422B0E2A5E00B2F069 /* TopMoversView.swift in Sources */,
 				CD4375462B0E34CC00B2F069 /* AllCoinsView.swift in Sources */,
 				CD43752C2B0DFF7A00B2F069 /* CryptoCurrencyApp.swift in Sources */,
