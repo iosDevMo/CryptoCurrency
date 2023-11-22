@@ -15,7 +15,7 @@ struct TopMoversView: View {
                 .font(.headline)
             ScrollView(.horizontal){
                 HStack(spacing: 16) {
-                    ForEach(viewModel.coins) { coin in
+                    ForEach(viewModel.topMovingCoins) { coin in
                         TopMoversItemView(coin: coin)
                     }
                 }
