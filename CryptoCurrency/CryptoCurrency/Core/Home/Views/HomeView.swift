@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @StateObject var viewModel = HomeViewModel()
+    @State private var showAlert = false
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
@@ -17,7 +18,17 @@ struct HomeView: View {
                 Divider()
                 // all coins view
                 AllCoinsView(viewModel: viewModel)
+            }.refreshable {
+                viewModel.handelRefresh()
             }
+            .onReceive(viewModel.$error, perform: { error in
+                if error != nil {
+                    showAlert.toggle()
+                }
+            }).alert(isPresented: $showAlert, content: {
+                Alert(title:Text("Error"),
+                      message: Text (viewModel.error?.localizedDescription ?? ""))
+            })
             .navigationTitle("Live Prices")
         }
         

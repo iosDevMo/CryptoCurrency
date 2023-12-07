@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD27A4042B21DEA700815712 /* CoinError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD27A4032B21DEA700815712 /* CoinError.swift */; };
 		CD43752C2B0DFF7A00B2F069 /* CryptoCurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43752B2B0DFF7A00B2F069 /* CryptoCurrencyApp.swift */; };
 		CD43752E2B0DFF7A00B2F069 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43752D2B0DFF7A00B2F069 /* HomeView.swift */; };
 		CD4375302B0DFF7B00B2F069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD43752F2B0DFF7B00B2F069 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD27A4032B21DEA700815712 /* CoinError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinError.swift; sourceTree = "<group>"; };
 		CD4375282B0DFF7A00B2F069 /* CryptoCurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD43752B2B0DFF7A00B2F069 /* CryptoCurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyApp.swift; sourceTree = "<group>"; };
 		CD43752D2B0DFF7A00B2F069 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				CD43754B2B0E551C00B2F069 /* Coin.swift */,
+				CD27A4032B21DEA700815712 /* CoinError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				CD43752C2B0DFF7A00B2F069 /* CryptoCurrencyApp.swift in Sources */,
 				CD43754C2B0E551C00B2F069 /* Coin.swift in Sources */,
 				CD4375512B0E800E00B2F069 /* Double.swift in Sources */,
+				CD27A4042B21DEA700815712 /* CoinError.swift in Sources */,
 				CD4375442B0E2A9F00B2F069 /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
