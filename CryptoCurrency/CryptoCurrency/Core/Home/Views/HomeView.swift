@@ -12,7 +12,7 @@ struct HomeView: View {
     @State private var showAlert = false
     var body: some View {
         NavigationView {
-            ScrollView(.vertical, showsIndicators: false) {
+            ScrollView(.vertical, showsIndicators: true) {
                 // top movers view
                 TopMoversView(viewModel: viewModel)
                 Divider()
